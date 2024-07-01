@@ -1,8 +1,8 @@
-# pixel_art
+# Pixel_art
     o intuito desse código é processar uma imagem para ganhar um aspecto de pixel art
     esse código contem dois filtros para imagens
 
-# funções
+# Funções
     def reduce_resolution(image, new_width, new_height)
    
    {
@@ -36,5 +36,18 @@ combina os passos anteriores.
 	Carrega a imagem original, reduz sua resolução, extrai as principais cores e mapeia os pixels para essas cores.
 	A imagem resultante é salva no caminho especificado}
 
-![um exemplo da aplicação da primeira tecnica da imagem da Deusa kali]([https://ibb.co/3ztzRT1](https://i.ibb.co/4dBd1FW/Captura-de-tela-2024-07-01-153742.png))
+![um exemplo da aplicação da primeira tecnica da imagem da Deusa kali](https://i.ibb.co/4dBd1FW/Captura-de-tela-2024-07-01-153742.png)
 
+	def posterize_image(image_path, output_folder, num_colors)
+{
+A posterização reduz o número de cores em uma imagem, criando um efeito de cores sólidas e distintas
+}
+> essa função é separada do restante do código, não utiliza nenhuma das funções abordadas anteriormente
+
+![um exemplo da aplicação da segunda tecnica da imagem da Deusa kali](https://i.ibb.co/540qfsQ/Captura-de-tela-2024-07-01-153718.png) 
+
+# Fontes
+
+* https://www.youtube.com/watch?v=CHxXL7A8ZpY&list=PLFLRQZXTN0Bib3eMsOVFeWsBKdevPz5xZ&index=6 (muito importante para entender como funciona o processo de transformar uma imagem normal em pixel arte)
+* https://www.cambridgeincolour.com/tutorials/image-interpolation.htm
+* https://medium.com/cwi-software/entendendo-clusters-e-k-means-56b79352b452
