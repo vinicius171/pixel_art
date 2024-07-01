@@ -36,5 +36,5 @@ combina os passos anteriores.
 	Carrega a imagem original, reduz sua resolução, extrai as principais cores e mapeia os pixels para essas cores.
 	A imagem resultante é salva no caminho especificado}
 
-
+![um exemplo da aplicação da primeira tecnica da imagem da Deusa kali]([https://ibb.co/3ztzRT1](https://i.ibb.co/4dBd1FW/Captura-de-tela-2024-07-01-153742.png))
 
