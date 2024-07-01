@@ -1,6 +1,6 @@
 # pixel_art
     o intuito desse código é processar uma imagem para ganhar um aspecto de pixel art
-    nesse código contem dois filtros para imagens, o primeiro é mais complexo!!!
+    nesse código contem dois filtros para imagens
 
 # funções
     def reduce_resolution(image, new_width, new_height)
